@@ -3,12 +3,12 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div >
-     <div className="navbar bg-base-100 shadow-sm flex justify-between px-25">
-  <div className="">
-    <a className=" text-3xl font-bold bg-linear-to-r from-[#4F39F6] to-[#dc35f6] text-transparent bg-clip-text">DigiTools</a>
+     <div className=" navbar bg-base-100 shadow-sm flex  justify-between  px-2 sm:px-10 md:px-25">
+  <div >
+    <a className=" text-3xl font-bold bg-linear-to-r from-[#4F39F6] to-[#a327d8] text-transparent bg-clip-text">DigiTools</a>
   </div>
 
-  <div className=''>
+  <div className='hidden lg:flex'>
     <ul className='menu menu-horizontal px-1 gap-2 mx-auto'>
         <li><a href=""> Products</a></li>
         <li><a href=""> Features</a></li>
@@ -18,7 +18,7 @@ const Navbar = () => {
     </ul>
   </div>
 
-  <div className="flex  mr-0">
+  <div className="flex items-center  mr-0">
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
         <div className="indicator">
@@ -41,7 +41,7 @@ const Navbar = () => {
 
     <button className='mr-2'>Login</button>
 
-    <button className=" bg-gradient-to-r from-[#4F39F6] to-[#dc35f6] text-white font-semibold rounded-4xl px-3 py-0.5">Get Started</button>
+    <button className=" bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white font-semibold rounded-4xl px-3 py-0.5">Get Started</button>
     {/* <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
