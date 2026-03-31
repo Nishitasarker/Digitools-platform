@@ -6,7 +6,7 @@ import Border from "./Components/Border/Border"
 import CardSection from './Components/CardSection/CardSection'
 import Footer from './Components/Footer/Footer'
 import FooterTop from './Components/FooterTop/FooterTop'
-
+import GetStarted from './Components/GetStarted/GetStarted'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,7 +17,7 @@ function App() {
     <HeroSection></HeroSection>
     <Border></Border>
     <CardSection></CardSection>
-
+    <GetStarted></GetStarted>
 
 
 
