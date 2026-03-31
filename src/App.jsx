@@ -5,7 +5,7 @@ import HeroSection from "./Components/Navbar/HeroSection/HeroSection"
 import Border from "./Components/Border/Border"
 import CardSection from './Components/CardSection/CardSection'
 import Footer from './Components/Footer/Footer'
-
+import FooterTop from './Components/FooterTop/FooterTop'
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
 
 
 
-
+     <FooterTop></FooterTop>
      <Footer></Footer>
     </>
   )
