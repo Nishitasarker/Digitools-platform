@@ -43,9 +43,9 @@ const GetStarted = () => {
 </div>  
 </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Create Account</h2>
-    <p className='text-gray-400'> Sign up for free in seconds. No credit card <br />
-    required to get started</p>
+    <h2 className="card-title">Choose Products</h2>
+    <p className='text-gray-400'> Browse our catalog and select the tools <br /> that fit your needs.
+    </p>
 </div>
    </div>
 
@@ -63,9 +63,9 @@ const GetStarted = () => {
 </div>  
 </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title">Create Account</h2>
-    <p className='text-gray-400'> Sign up for free in seconds. No credit card <br />
-    required to get started</p>
+    <h2 className="card-title">Start Creating</h2>
+    <p className='text-gray-400'> Download and start using your premium <br />
+   tools immediately.</p>
    
 </div></div>
    </div>
