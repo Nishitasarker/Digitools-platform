@@ -1,0 +1,101 @@
+ [
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Essential tools for individuals and small projects to get started quickly.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free",
+    "tagType": "New",
+    "features": ["5 basic templates", "Community support", "Standard export", "1GB cloud storage"],
+    "icon": "https://api.iconify.design/lucide:rocket.svg"
+  },
+  {
+    "id": 2,
+    "name": "Professional Suite",
+    "description": "Advanced features for creators who need full control over branding and SEO.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "Popular",
+    "features": ["100+ premium templates", "ATS optimization", "Custom domain linking", "Priority support"],
+    "icon": "https://api.iconify.design/lucide:briefcase.svg"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise Hub",
+    "description": "Scalable solutions for large teams requiring high security and collaboration.",
+    "price": 199.00,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "Best Seller",
+    "features": ["Unlimited collaborators", "SAML SSO integration", "Dedicated manager", "Custom API access"],
+    "icon": "https://api.iconify.design/lucide:shield-check.svg"
+  },
+  {
+    "id": 4,
+    "name": "Analytics Pro",
+    "description": "Deep dive into your data with real-time tracking and automated reporting.",
+    "price": 45.00,
+    "period": "monthly",
+    "tag": "New Update",
+    "tagType": "New",
+    "features": ["Real-time heatmaps", "User behavior tracking", "Weekly PDF reports", "Slack integration"],
+    "icon": "https://api.iconify.design/lucide:bar-chart-3.svg"
+  },
+  {
+    "id": 5,
+    "name": "Design Master",
+    "description": "The ultimate toolkit for UI/UX designers focusing on responsive layouts.",
+    "price": 120.00,
+    "period": "one-time",
+    "tag": "Top Rated",
+    "tagType": "Best Seller",
+    "features": ["Advanced grid systems", "Auto-layout components", "SVG & Canvas export", "Component library"],
+    "icon": "https://api.iconify.design/lucide:palette.svg"
+  },
+  {
+    "id": 6,
+    "name": "SEO Optimizer",
+    "description": "Boost your search engine rankings with AI-driven keyword suggestions.",
+    "price": 29.00,
+    "period": "monthly",
+    "tag": "Trending",
+    "tagType": "Popular",
+    "features": ["Keyword difficulty score", "Backlink checker", "Competitor analysis", "Site audit tool"],
+    "icon": "https://api.iconify.design/lucide:search-code.svg"
+  },
+  {
+    "id": 7,
+    "name": "Content Automator",
+    "description": "Schedule and post your social media content across all platforms automatically.",
+    "price": 15.00,
+    "period": "monthly",
+    "tag": "Time Saver",
+    "tagType": "New",
+    "features": ["Multi-platform posting", "AI caption generator", "Engagement analytics", "Post recycling"],
+    "icon": "https://api.iconify.design/lucide:calendar-days.svg"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Storage Plus",
+    "description": "Secure, encrypted cloud storage for your most sensitive project files.",
+    "price": 99.00,
+    "period": "yearly",
+    "tag": "Secure",
+    "tagType": "Best Seller",
+    "features": ["2TB storage space", "End-to-end encryption", "File versioning", "Offline access"],
+    "icon": "https://api.iconify.design/lucide:cloud.svg"
+  },
+  {
+    "id": 9,
+    "name": "API Developer Kit",
+    "description": "Robust tools and documentation for building custom integrations smoothly.",
+    "price": 59.00,
+    "period": "monthly",
+    "tag": "For Devs",
+    "tagType": "Popular",
+    "features": ["Unlimited API calls", "Webhook support", "SDKs for 5 languages", "Sandbox environment"],
+    "icon": "https://api.iconify.design/lucide:code-2.svg"
+  }
+]

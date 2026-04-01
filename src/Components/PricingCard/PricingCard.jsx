@@ -47,8 +47,10 @@ const PricingCard = () => {
 
 
 
-      <div className="card w-96 bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white  shadow-sm">
-  <div className="card-body">
+      <div className="card  w-96 bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white  shadow-sm">
+  <div className="card-body relative">
+    <div className='absolute left-35 -top-4  font-semibold  bg-yellow-100  text-yellow-500 rounded-full py-2 px-2  flex items-center'>Most Popular</div>
+
        <div className="flex flex-col flex-1">
       <h2 className="text-xl font-bold">Pro</h2>
       <p className='text-sm text-gray-400 pb-5'>Best for professionals</p>
@@ -83,7 +85,7 @@ const PricingCard = () => {
       </li>
     </ul>
     <div className="mt-8  bg-white rounded-4xl">
-      <button className="text-lg font-semibold px-24  py-2 border border-white bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-transparent bg-clip-text ">Start Pro Trial</button>
+      <button className="text-lg font-semibold px-24  py-2 bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-transparent bg-clip-text ">Start Pro Trial</button>
     </div>
   </div>
 </div> 
