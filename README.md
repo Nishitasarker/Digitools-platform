@@ -12,7 +12,7 @@
 This platform allows users to browse a curated collection of digital products and manage their purchases through a dynamic shopping cart. It solves the common UI challenge of real-time data synchronization between different components (Navbar & Product Cards) using efficient state management.
 
 ### 🔗 [Live Demo Link Here] 
-*(Replace this with your Netlify/Vercel link)*
+fancy-tiramisu-290684.netlify.app
 
 ---
 
