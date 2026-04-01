@@ -9,7 +9,7 @@ const PricingCard = () => {
      </div>
 
 
-     <div className='grid grid-cols-1 gap-5 sm:grid-cols-3 items-stretch'>
+     <div className='grid grid-cols-1 gap-8 sm:grid-cols-3 items-stretch'>
 
 
       <div className="card w-full h-full flex flex-col bg-gray-100 shadow-sm">

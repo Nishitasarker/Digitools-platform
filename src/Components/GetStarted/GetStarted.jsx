@@ -12,7 +12,7 @@ const GetStarted = () => {
             </div>
 
 
-<div className='pt-10 grid grid-cols-1 gap-5 sm:grid-cols-3'>
+<div className='pt-10 grid grid-cols-1 gap-5 sm:grid-cols-3 px-5 '>
         
     <div className="card bg-base-100 w-96 relative shadow-sm">
          <div className='absolute right-4 top-3 h-8 w-8 font-semibold  bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white rounded-full py-2 px-2  flex items-center'>01</div>

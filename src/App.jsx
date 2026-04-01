@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar cartCount={Carts.length}></Navbar>
     <HeroSection></HeroSection>
     <Border></Border> 
 
@@ -44,14 +44,14 @@ function App() {
   <input type="radio" name="my_tabs_1" className={`tab rounded-full py-1 ${activeTab === "CardSection" ? "bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white  font-semibold   " : ""}`} defaultChecked
   aria-label="Products"  onClick={()=> setActiveTab("CardSection")}/>
   
-  <input type="radio" name="my_tabs_1" className={`tab rounded-full py-1 ${activeTab === "Cart" ? "bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white  font-semibold   " : ""}`} aria-label="Carts"  
+  <input type="radio" name="my_tabs_1" className={`tab rounded-full py-1 ${activeTab === "Cart" ? "bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white  font-semibold   " : ""}`} aria-label={`Carts(${Carts.length})`}  
   onClick={()=> setActiveTab("Cart")}/>
   </div>
         </div>   
     
     
    {activeTab==="CardSection" && <CardSection modelPromise={modelPromise} Carts={Carts} setCarts={setCarts}></CardSection>}
-    {activeTab==="Cart" && <Cart Carts={Carts}></Cart>}
+    {activeTab==="Cart" && <Cart Carts={Carts} setCarts={setCarts}></Cart>}
 
     <GetStarted></GetStarted>
     <PricingCard></PricingCard>

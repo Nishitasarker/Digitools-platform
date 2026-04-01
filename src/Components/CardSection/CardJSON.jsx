@@ -1,12 +1,13 @@
 import  {useState} from 'react';
+import { toast } from 'react-toastify';
 
-const CardJSON = ({allCard, setCarts, setIsBuy: setParentIsBuy}) => {
+const CardJSON = ({allCard, setCarts, setIsBuy: setParentIsBuy,activeCardId, setActiveCardId}) => {
      const [isBuy, setIsBuy] = useState(false)
  const handleBuy = ()=>{
     setIsBuy(true);
+    // toast.success("Item added to Cart")
    setCarts((prevCarts) => {
-      // ডুপ্লিকেট চেক (একই জিনিস যেন বারবার অ্যাড না হয়)
-      const isExist = prevCarts.find(item => item.name === allCard.name);
+           const isExist = prevCarts.find(item => item.name === allCard.name);
       if (isExist) return prevCarts;
       
       
@@ -55,8 +56,8 @@ const CardJSON = ({allCard, setCarts, setIsBuy: setParentIsBuy}) => {
       </li> */}
       
     </ul>
-    <div className="mt-2 mx-auto">
-      <button onClick={handleBuy} className="bg-gradient-to-r from-[#4F39F6] to-[#a327d8] text-white text-lg font-semibold rounded-4xl px-25 py-1">{isBuy ? "Added to Cart" : "Buy Now"}</button>
+    <div className="mt-2 w-full ">
+      <button onClick={handleBuy} className={` text-white text-lg font-semibold rounded-4xl w-full py-1 ${isBuy ? "bg-green-400" : "bg-gradient-to-r from-[#4F39F6] to-[#a327d8]"}`}>{isBuy ? "✓ Added to Cart !" : "Buy Now"}</button>
     </div>
   </div>
 </div>  
