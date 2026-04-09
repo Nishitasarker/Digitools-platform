@@ -24,7 +24,18 @@ fancy-tiramisu-290684.netlify.app
 * **Data Handling:** Fetch API with local JSON models
 
 ---
+## screenshots
+![WhatsApp Image 2026-04-09 at 17 15 41](https://github.com/user-attachments/assets/e0e90c5a-9e2a-4a8d-b7d1-3f869a937f70) 
+## Responsive 
 
+![digitools resposive](https://github.com/user-attachments/assets/c9d57565-5dea-4762-b9ba-a7248927d181)
+
+
+
+
+
+
+---
 ## ✨ Professional Features
 
 ### 1. Advanced State Management (State Lifting)
