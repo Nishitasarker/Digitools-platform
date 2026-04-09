@@ -13,6 +13,8 @@ This platform allows users to browse a curated collection of digital products an
 
 ### 🔗 [Live  Link Here] 
 https://nishitasarker.github.io/Digitools-platform/
+#### Linkedin
+https://linkedin.com/in/nishitasarker2005
 
 ---
 
